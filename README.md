@@ -16,4 +16,4 @@ Os testes unitários utilizam o `test_client()` do Flask em memória, validando 
 
 ## Quem fez o quê
 - **Aluno A (Ricardo Mestre — `Ricardo2809`):** Atuei como dono do repositório `projeto-devops-dupla-21` na porta `5021`, configurei o fluxo de publicação contínua do site com página de status (`pages.yml`), ajustei as permissões de escrita e conferi a visibilidade pública da imagem no `ghcr.io`, executei o rollback operacional para a `v1`, realizei o rollback no repositório via `git revert` publicando a tag `v3` e estruturei o `README.md` final.
-- **Aluno B (Leonardo Gil do Prado — `Lpleoo`):** A completar pelo aluno B.
+- **Aluno B (Leonardo Gil do Prado — `Lpleoo`):** Atuei como colaborador na `dupla-21` (porta `5021`), atualizei o `Dockerfile` com `ARG` e `ENV` para receber `APP_VERSION`, criei o workflow `publicar-imagem.yml` para construir e publicar imagens no `ghcr.io`, publiquei a tag inicial `v1`, simulei a falha de configuração alterando a porta da API para `5022` na tag `v2`, diagnostiquei o problema via `docker logs` e executei o rollback operacional de volta para a `v1`.
